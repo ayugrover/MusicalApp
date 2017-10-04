@@ -4,10 +4,10 @@ package lamaatech.com.musicalapp.SongDetailsActivity;
  * Created by MrHacker on 10/2/2017.
  */
 
-public class SongDetailsPresenter implements SongDetailsContract.Presenter {
+class SongDetailsPresenter implements SongDetailsContract.Presenter {
     private SongDetailsContract.SongDetailsView view;
 
-    public SongDetailsPresenter(SongDetailsContract.SongDetailsView newView) {
+    SongDetailsPresenter(SongDetailsContract.SongDetailsView newView) {
         view = newView;
     }
 

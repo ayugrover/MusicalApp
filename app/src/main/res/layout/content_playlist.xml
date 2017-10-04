@@ -16,22 +16,33 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="16dp"
+        android:text="@string/playlist" />
+
+    <TextView
+        style="@style/CodeFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
         android:text="@string/playlist_description" />
 
     <Button
         android:id="@+id/songDetails_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/song_details" />
 
     <Button
         android:id="@+id/main_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/main" />
 
     <Button
         android:id="@+id/payment_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/payment" />

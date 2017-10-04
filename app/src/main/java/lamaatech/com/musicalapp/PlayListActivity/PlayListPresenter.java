@@ -4,10 +4,10 @@ package lamaatech.com.musicalapp.PlayListActivity;
  * Created by MrHacker on 10/2/2017.
  */
 
-public class PlayListPresenter implements PlayListContract.Presenter {
+class PlayListPresenter implements PlayListContract.Presenter {
     private PlayListContract.PlayListView view;
 
-    public PlayListPresenter(PlayListContract.PlayListView newView) {
+    PlayListPresenter(PlayListContract.PlayListView newView) {
         view = newView;
     }
 

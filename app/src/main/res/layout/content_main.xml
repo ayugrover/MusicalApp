@@ -15,24 +15,35 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="16dp"
+        android:text="@string/main" />
+
+    <TextView
+        style="@style/CodeFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
         android:text="@string/main_description" />
 
     <Button
         android:id="@+id/playList_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/imageButtonStyle"
         android:text="@string/playlist"/>
 
     <Button
         android:id="@+id/songDetails_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/imageButtonStyle"
         android:text="@string/song_details"/>
 
     <Button
         android:id="@+id/payment_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/imageButtonStyle"
         android:text="@string/payment"/>
 
 </LinearLayout>

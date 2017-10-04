@@ -19,8 +19,17 @@
 
     <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/red</item>
         <item name="android:typeface">monospace</item>
+        <item name="android:layout_margin">8dp</item>
     </style>
+
+    <style name="imageButtonStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/Green</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
 
 </resources>

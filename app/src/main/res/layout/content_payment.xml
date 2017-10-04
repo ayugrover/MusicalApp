@@ -15,32 +15,38 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="16dp"
-        android:text="@string/buy_song_activity" />
+        android:text="@string/payment_functionality" />
+
+    <TextView
+        style="@style/CodeFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="@string/api" />
+
+
 
     <Button
         android:id="@+id/playList_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/playlist" />
 
     <Button
         android:id="@+id/songDetails_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/song_details" />
 
     <Button
         android:id="@+id/main_button"
+        style="@style/imageButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/main" />
 
-    <TextView
-        style="@style/CodeFont"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:paddingBottom="16dp"
-        android:text="@string/payment_functionality" />
 
 </LinearLayout>

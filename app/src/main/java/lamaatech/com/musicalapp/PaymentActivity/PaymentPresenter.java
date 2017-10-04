@@ -4,11 +4,11 @@ package lamaatech.com.musicalapp.PaymentActivity;
  * Created by MrHacker on 10/2/2017.
  */
 
-public class PaymentPresenter implements PaymentContract.Presenter {
+ class PaymentPresenter implements PaymentContract.Presenter {
 
     private PaymentContract.PaymentView view;
 
-    public PaymentPresenter(PaymentContract.PaymentView newView) {
+    PaymentPresenter(PaymentContract.PaymentView newView) {
         view = newView;
     }
 

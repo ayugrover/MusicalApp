@@ -4,11 +4,11 @@ package lamaatech.com.musicalapp.MainActivity;
  * Created by MrHacker on 10/2/2017.
  */
 
-public class MainPresenter implements MainContract.Presenter {
+class MainPresenter implements MainContract.Presenter {
 
     private MainContract.MainView view;
 
-    public MainPresenter(MainContract.MainView newView) {
+    MainPresenter(MainContract.MainView newView) {
         view = newView;
     }
 

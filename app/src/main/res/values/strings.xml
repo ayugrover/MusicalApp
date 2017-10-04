@@ -2,15 +2,17 @@
     <string name="app_name">MusicalApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_now_playing">PlayList Activity</string>
-    <string name="title_activity_song_details">Song Details Activity</string>
+    <string name="title_activity_song_details">Play Music</string>
     <string name="title_activity_payment">Payment Activity</string>
     <string name="main_description">This activiy display all activities buttons untill can move from one of that activities</string>
     <string name="playlist">PlayList</string>
-    <string name="song_details">Song Details</string>
+    <string name="song_details">Current Song</string>
     <string name="payment">Payment</string>
     <string name="buy_song_activity">Buy song Activity</string>
     <string name="main">Main</string>
-    <string name="payment_functionality">you can enter your credit card info to can buy this song</string>
+    <string name="payment_functionality">Buy your favorite song</string>
     <string name="playlist_description">This activiy display PlayList</string>
-    <string name="song_details_description">This activiy display song details</string>
+    <string name="song_details_description">This activiy display the current music that is working</string>
+    <string name="playing_now">Playing Now</string>
+    <string name="api">CardForm can be used as simple credit card validation form with any credit card form and any payment api</string>
 </resources>
